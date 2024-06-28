@@ -39,9 +39,9 @@ for (let num of colBINGO) {
     colBINGO.splice(w, 1);
     let text = pickNumber;
     //console.log(sqrBINGO, pickNumber);
-    displayCard(text) {
-      document.getElementById(text).innerHTML = text;
-    }
+      function displayCard(text) {
+        document.getElementById(text).innerHTML = text;
+       }
     j++;
   }
 
