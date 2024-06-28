@@ -39,7 +39,9 @@ for (let num of colBINGO) {
     colBINGO.splice(w, 1);
     let text = pickNumber;
     //console.log(sqrBINGO, pickNumber);
-    document.getElementById(text).innerHTML = text;
+    displayCard(text) {
+      document.getElementById(text).innerHTML = text;
+    }
     j++;
   }
 
@@ -49,6 +51,7 @@ for (let num of colBINGO) {
   }
 }
 }
+
 //This code should be able to display the random number in the appropriate square
 // function insert() {
 //   text = ;
