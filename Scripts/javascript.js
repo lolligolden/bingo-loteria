@@ -1,5 +1,6 @@
+playCard(pCard);
 function playCard() {
-
+const pCard = 
 document.getElementById("Start").addEventListener('click', playCard);
 
 
@@ -13,7 +14,7 @@ const squareBINGO = ["B1", "B2", "B3", "B4", "B5", "I1", "I2", "I3", "I4", "I5",
 let y = [];
 let z = [];
 let i = 0;
-let j = 0
+let j = 0;
 
 
 for (let num of colBINGO) {
@@ -48,9 +49,9 @@ for (let num of colBINGO) {
     displayCard();
 
     function displayCard() {
-      const card = document.getElementbyId(sqrBINGO);
+      const dcard = document.getElementbyId(sqrBINGO);
       let text = pickNumber;
-      card.innerHTML = text;
+      dcard.innerHTML = text;
     }
     j++;
   }
