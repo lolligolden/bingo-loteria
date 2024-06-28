@@ -1,4 +1,4 @@
-
+playCard(pCard);
 function playCard() {
 const pCard = 
 document.getElementById("Start").addEventListener('click', playCard);
