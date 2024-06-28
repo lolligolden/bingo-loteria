@@ -46,7 +46,7 @@ for (let num of colBINGO) {
     colBINGO.splice(w, 1);
     
     //console.log(sqrBINGO, pickNumber);
-    const dcard = document.getElementbyId(squareBINGO);
+    const dcard = document.getElementbyId(sqrBINGO);
 
     displayCard();
 
