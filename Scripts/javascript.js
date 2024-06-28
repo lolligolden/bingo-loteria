@@ -37,10 +37,10 @@ for (let num of colBINGO) {
     z.push(pickNumber);
     let w = colBINGO.indexOf(z[j]);
     colBINGO.splice(w, 1);
-    let text = pickNumber;
+    
     //console.log(sqrBINGO, pickNumber);
       function displayCard() {
-        document.getElementById(x).innerHTML = text;
+        document.getElementById(x).innerHTML = pickNumber;
        }
     j++;
   }
