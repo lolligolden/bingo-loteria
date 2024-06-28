@@ -47,9 +47,9 @@ for (let num of colBINGO) {
     
     //console.log(sqrBINGO, pickNumber);
     displayCard();
+    const dcard = document.getElementbyId(sqrBINGO);
 
     function displayCard() {
-      const dcard = document.getElementbyId(sqrBINGO);
       let text = pickNumber;
       dcard.innerHTML = text;
     }
