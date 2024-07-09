@@ -37,7 +37,7 @@ theme2.style.textDecoration = "underline";
       }
   }
 
-  function markCell(cell, boardIndex, cellIndex) {
+  function markCell(boardIndex, cellIndex) {
       cell.classList.toggle('marked');
       checkWin(boardIndex);
   }
